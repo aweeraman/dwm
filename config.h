@@ -106,7 +106,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	{ MODKEY,                       XK_s,      spawn,          {.v = lockcmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = browsercmd } },
-	{ MODKEY,                       XK_e,      spawn,          CMD("st -e mutt") },
+	{ MODKEY,                       XK_e,      spawn,          SHCMD("st -e mutt") },
 };
 
 /* button definitions */
