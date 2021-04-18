@@ -65,7 +65,7 @@ static const char *dmenucmd[]   = { "dmenu_run", "-m", dmenumon, "-fn", dmenufon
 static const char *termcmd[]    = { "st", NULL };
 static const char *lockcmd[]    = { "slock", NULL };
 static const char *browsercmd[] = { "chromium", NULL };
-static const char *mailcmd[] = { "mutt", NULL };
+static const char *mailcmd[] = { "st -e mutt", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
